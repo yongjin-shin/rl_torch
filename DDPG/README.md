@@ -37,15 +37,37 @@ Every 5000 steps, 10 episodes of evaluation was preceded and recorded. The follo
 
 
 
+**Halfcheetah-v2**
+
 ![Halfcheetah-v2](https://github.com/yongjin-shin/rl_torch/blob/master/DDPG/assets/half.png)
+
+
+
+**Hopper-v2**
 
 ![Hopper-v2](https://github.com/yongjin-shin/rl_torch/blob/master/DDPG/assets/hopper.png)
 
+
+
+**Ant-v2**
+
 ![Ant-v2](https://github.com/yongjin-shin/rl_torch/blob/master/DDPG/assets/ant.png)
+
+
+
+**Invertedpendulum-v2**
 
 ![Invertedpendulum-v2](https://github.com/yongjin-shin/rl_torch/blob/master/DDPG/assets/invertedpen.png)
 
+
+
+**Walker-v2**
+
 ![Walker-v2](https://github.com/yongjin-shin/rl_torch/blob/master/DDPG/assets/walker.png)
+
+
+
+**Reacher-v2**
 
 ![Reacher-v2](https://github.com/yongjin-shin/rl_torch/blob/master/DDPG/assets/reacher.png)
 
