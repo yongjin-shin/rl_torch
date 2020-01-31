@@ -27,7 +27,6 @@ git clone https://github.com/shariqiqbal2810/multiagent-particle-envs.git
 
 ```
 python main.py with args.scenario="scenario_name"
-
 ```
 
 You can check some hyperparameter settings from ```multi_run.sh```.
@@ -46,11 +45,15 @@ Every 5000 steps, 10 episodes of evaluation was preceded and recorded. The follo
 
 **Cooperative navigation (simple_spread)**
 
+! [spread](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/spread.gif){: width="50%" height="50%"}{: .center}
 
+! [spread_graph](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/spread.png){: width="50%" height="50%"}{: .center}
 
 
 
 **Predator Prey (simple_tag)**
 
+! [tag](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/tag.gif){: width="50%" height="50%"}{: .center}
 
+! [tag_graph](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/tag.png){: width="50%" height="50%"}{: .center}
 
