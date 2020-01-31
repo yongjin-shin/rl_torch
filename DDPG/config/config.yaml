@@ -1,0 +1,38 @@
+scenario: 'HalfCheetah-v2' # help='Ant-v2, Hopper-v2, Walker2d-v2, HalfCheetah-v2, Pendulum-v0'
+seed: 1
+gpu: True
+start_timesteps: 10000
+
+epoch: 500
+epoch_cycles: 20
+roll_out_steps: 100
+#train_steps: 50
+evaluation: True
+eval_req: 5000
+num_eval: 10
+#eval_steps: 100
+
+#train_iter: 1
+#train_step_max: 1000000
+#ep_step_len: 1000
+#evaluation: False
+
+gamma: 0.99
+tau: 0.005 #0.001
+
+buffer: 1000000
+batch: 256 #64
+bn: False
+
+actor_lr: 0.0001 #0.001
+critic_lr: 0.001
+critic_l2: 0.01
+actor_gradient_clip: 0.5
+critic_gradient_clip: 1.0
+
+noise: normal #ou
+mu: 0
+theta: 0.15
+sigma: 0.2
+expl_noise: 0.1 #normal
+
