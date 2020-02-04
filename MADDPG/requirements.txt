@@ -17,7 +17,7 @@ google-auth==1.10.2
 google-auth-oauthlib==0.4.1
 google-pasta==0.1.8
 grpcio==1.26.0
-gym==0.14.0
+gym==0.9.4
 h5py==2.10.0
 idna==2.8
 imageio==2.6.1
