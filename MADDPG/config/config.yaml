@@ -6,16 +6,16 @@ render_saving: True
 model_saving: True
 
 # Experiment Settings
-max_steps: 625000 #250000, 725000
+max_steps: 1200000 #250000, 725000
 start_timesteps: 0 #10000
 steps_per_update: 100
 num_update: 4
-roll_out_steps: 25 #100
-eval_roll_out_steps: 25
+roll_out_steps: 30 #100
+eval_roll_out_steps: 30
 evaluation: True
 eval_req: 5000
 num_eval: 10
-buffer: 1000000 # 1000000 1e6
+buffer: 10000000 # 1000000 1e6
 batch: 1024 #256 64
 discrete_action: False
 
@@ -26,18 +26,18 @@ alg_agent: 'MADDPG'
 # Architecture Settings
 norm_in: True
 norm_rwd: True
-gamma: 0.99 #0.95 #0.99 discount factor
-hidden1: 128 #64 #400
-hidden2: 128 #64 #300
+gamma: 0.95 #0.95 #0.99 discount factor
+hidden1: 64 #64 #400
+hidden2: 64 #64 #300
 use_l2: False
-actor_lr: 0.001 #0.01 #0.0001 #0.001
-critic_lr: 0.001 #0.01 #0.001
+actor_lr: 0.01 #0.0001 #0.001
+critic_lr: 0.01 #0.001
 critic_l2: 0.01
 actor_gradient_clip: 0.5
 critic_gradient_clip: 0.5
 
 # DDPG Settings
-tau: 0.001 #0.01 #soft update 0.005 #0.001
+tau: 0.01 #0.01 #soft update 0.005 #0.001
 noise: ou # normal | ou
 expl_noise: 0.1 #normal
 mu: 0 #ou

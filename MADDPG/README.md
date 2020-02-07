@@ -37,7 +37,7 @@ Since I used ```sacred``` and ```omniboard```, you can change hyperparameter wit
 
 ### Results
 
-Note that unlike mujoco environments, batch normalization is critical issue during training! Also reward normalization is essential.
+Note that unlike mujoco environments, batch normalization is critical issue during training! Also reward normalization is essential. Also the initial weights are important to bump up the performance..
 
 Every 5000 steps, 10 episodes of evaluation was preceded and recorded. The followings were from these evaluation results.
 
@@ -47,6 +47,10 @@ Every 5000 steps, 10 episodes of evaluation was preceded and recorded. The follo
 
 ![spread](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/spread.gif)
 
+![spread](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/spread_1.gif)
+
+![spread](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/spread_2.gif)
+
 ![spread_graph](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/spread.png)
 
 
@@ -54,6 +58,10 @@ Every 5000 steps, 10 episodes of evaluation was preceded and recorded. The follo
 **Predator Prey (simple_tag)**
 
 ![tag](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/tag.gif)
+
+![tag](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/tag_1.gif)
+
+![tag](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/tag_2.gif)
 
 ![tag_graph](https://github.com/yongjin-shin/rl_torch/blob/master/MADDPG/assets/tag.png)
 

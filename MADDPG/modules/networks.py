@@ -55,8 +55,8 @@ class Critic(nn.Module):
         self.fc1 = nn.Linear(self.args.n_q_obs+self.args.n_q_actions, self.args.hidden1)
         self.fc2 = nn.Linear(self.args.hidden1, self.args.hidden2)
         self.last = nn.Linear(self.args.hidden2, 1)
-        nn.init.uniform_(self.last.weight, -3 * 1e-3, 3 * 1e-3)
-        nn.init.uniform_(self.last.bias, -3 * 1e-3, 3 * 1e-3)
+        # nn.init.uniform_(self.last.weight, -3 * 1e-3, 3 * 1e-3)
+        # nn.init.uniform_(self.last.bias, -3 * 1e-3, 3 * 1e-3)
 
     def forward(self, obs, act):
         q_in = torch.cat((obs, act), dim=1)
