@@ -3,8 +3,7 @@ The original [paper](https://arxiv.org/pdf/1706.02275.pdf) is openai's "Multi-Ag
 
 
 
-The results is nearly similar with that of [2]code. Under the cooperative setting(simple_spread), my code does better, on the other hand, the competitive setting(simple_tag), [2]code's result is slightly better.
-
+The results is nearly similar or better than that of [2]code.
 
 
 ### Environments
