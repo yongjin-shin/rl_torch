@@ -14,7 +14,7 @@ python==3.6.10
 
 torch==1.4.0
 
-gym==0.14.0
+gym==0.9.4
 
 git clone https://github.com/shariqiqbal2810/multiagent-particle-envs.git
 ```
