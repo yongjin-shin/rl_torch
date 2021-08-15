@@ -1,2 +1,2 @@
 # rl_torch
-Repository for RL code practicing
+Implemented DDPG, MADDPG with torch
