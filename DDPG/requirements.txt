@@ -41,7 +41,7 @@ mujoco-py==2.0.2.5
 munch==2.5.0
 numpy==1.14.5
 numpy-stl==2.10.1
-opencv-python==4.1.1.26
+opencv-python==4.2.0.32
 orderedmultidict==1.0.1
 packaging==20.0
 pandas==0.25.1
