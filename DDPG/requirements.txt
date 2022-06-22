@@ -39,7 +39,7 @@ monotonic==1.5
 more-itertools==8.0.2
 mujoco-py==2.0.2.5
 munch==2.5.0
-numpy==1.14.5
+numpy==1.22.0
 numpy-stl==2.10.1
 opencv-python==4.1.1.26
 orderedmultidict==1.0.1
