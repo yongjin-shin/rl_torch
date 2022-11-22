@@ -47,7 +47,7 @@ packaging==20.0
 pandas==0.25.1
 pathlib2==2.3.5
 pigar==0.9.2
-Pillow==6.1.0
+Pillow==9.3.0
 plotly==4.4.1
 protobuf==3.9.1
 psutil==5.6.7
