@@ -4,7 +4,7 @@ atari-py==0.2.6
 attrs==19.3.0
 Box2D==2.3.2
 box2d-py==2.3.8
-certifi==2018.8.24
+certifi==2022.12.7
 cffi==1.12.3
 chardet==3.0.4
 cloudpickle==1.2.2
